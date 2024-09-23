@@ -1,0 +1,5 @@
+local soundId = "rbxassetid://3314301672" -- replace with the ID of your sound
+local sound = Instance.new("Sound")
+sound.SoundId = soundId
+sound.Volume = 1.5 -- adjust the volume to your liking (0.0 to 1.0)
+sound:Play()
